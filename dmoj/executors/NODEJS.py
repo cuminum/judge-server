@@ -13,6 +13,7 @@ class Executor(ScriptExecutor):
         'shutdown',
         'pkey_alloc',
         'pkey_free',
+        'io_uring_setup'
     ]
     address_grace = 1048576
     test_program = """
