@@ -48,3 +48,4 @@ class Executor(ScriptExecutor):
 
 \
 """
+    syscalls = ['get_mempolicy']
