@@ -48,4 +48,4 @@ class Executor(ScriptExecutor):
 
 \
 """
-    syscalls = ['get_mempolicy']
+    syscalls = ['get_mempolicy', 'timerfd_settime']
