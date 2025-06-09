@@ -12,7 +12,7 @@ class Executor(NullStdoutMixin, CompiledExecutor):
         RecursiveDir('/proc/self/task'),
         RecursiveDir('/var/lib/ghc'),
     ]
-    syscalls = ['pselect6', 'timerfd_settime']
+    syscalls = ['pselect6', 'timerfd_settime', 'get_mempolicy']
     nproc = -1
 
     test_program = """\
