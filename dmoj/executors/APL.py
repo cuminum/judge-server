@@ -1,9 +1,8 @@
 from dmoj.executors.script_executor import ScriptExecutor
 
 class Executor(ScriptExecutor):
-    ext = 'abc'
-    command = 'abc'
+    ext = 'apl'
+    command = 'apl'
     test_program = """\
-WRITE "echo: Hello, World!"
+⎕←'echo: Hello World!'
 """
-    nproc = -1

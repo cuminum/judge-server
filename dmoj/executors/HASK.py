@@ -13,6 +13,7 @@ class Executor(NullStdoutMixin, CompiledExecutor):
         RecursiveDir('/var/lib/ghc'),
     ]
     syscalls = ['pselect6', 'timerfd_settime', 'get_mempolicy']
+    compiler_syscalls = ['get_mempolicy']
     nproc = -1
 
     test_program = """\

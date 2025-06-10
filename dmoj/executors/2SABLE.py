@@ -6,3 +6,4 @@ class Executor(ScriptExecutor):
     test_program = """\
 "echo: Hello, World!
 """
+    syscalls = ['execve']

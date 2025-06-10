@@ -29,3 +29,4 @@ class Executor(ScriptExecutor):
                       O
                        @
 """
+    syscalls = ['execve']
