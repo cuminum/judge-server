@@ -15,4 +15,4 @@ class Executor(ScriptExecutor):
 1 / 0
 """
     nproc = -1
-    syscalls = ['execve']
+    syscalls = ['execve', 'wait4']

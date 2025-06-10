@@ -7,4 +7,4 @@ class Executor(ScriptExecutor):
 WRITE "echo: Hello, World!"
 """
     nproc = -1
-    syscalls = ['execve', 'fadvise64']
+    syscalls = ['execve', 'fadvise64', 'wait4']
