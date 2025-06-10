@@ -22,7 +22,7 @@ class Executor(CompiledExecutor):
     address_grace = 786432
     command = 'go'
     syscalls = ['mincore', 'pselect6', 'mlock', 'setrlimit', 'pidfd_open']
-    compiler_syscalls = ['copy_file_range', 'setrlimit']
+    compiler_syscalls = ['copy_file_range', 'setrlimit', 'pidfd_open']
     test_name = 'echo'
     test_program = """\
 package main
