@@ -8,3 +8,4 @@ IT'S SHOWTIME
 TALK TO THE HAND "echo: Hello, World!"
 YOU HAVE BEEN TERMINATED
 """
+    nproc = -1

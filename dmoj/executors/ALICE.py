@@ -29,4 +29,4 @@ class Executor(ScriptExecutor):
                       O
                        @
 """
-    syscalls = ['execve']
+    syscalls = ['execve', 'eventfd2']

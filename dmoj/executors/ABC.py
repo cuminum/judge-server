@@ -7,3 +7,4 @@ class Executor(ScriptExecutor):
 WRITE "echo: Hello, World!"
 """
     nproc = -1
+    syscalls = ['execve']

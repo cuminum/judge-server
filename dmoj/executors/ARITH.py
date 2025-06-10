@@ -14,3 +14,4 @@ class Executor(ScriptExecutor):
 20 = 2 * 10
 1 / 0
 """
+    nproc = -1
