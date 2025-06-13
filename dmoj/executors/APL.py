@@ -6,3 +6,5 @@ class Executor(ScriptExecutor):
     test_program = """\
 ⎕←'echo: Hello World!'
 """
+    nproc = -1
+    syscalls = ['execve', 'fadvise64', 'wait4', 'vfork', 'shutdown']
