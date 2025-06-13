@@ -9,4 +9,4 @@ TALK TO THE HAND "echo: Hello, World!"
 YOU HAVE BEEN TERMINATED
 """
     nproc = -1
-    syscalls = ['execve', 'wait4', 'vfork']
+    syscalls = ['execve', 'wait4', 'vfork', 'symlinkat', 'chdir', 'fadvise64', 'unlinkat']
